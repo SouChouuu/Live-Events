@@ -1,0 +1,356 @@
+{
+    "scenes": [
+      {
+        "nom": "Scène Europe",
+        "concerts": [
+            {
+                "artiste": "Ed Sheeran",
+                "horaire": "20h00",
+                "date": "04-07-2025",
+                "genre": "Pop, Folk",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/EdSheeran.jfif"
+              },
+              {
+                "artiste": "Dua Lipa",
+                "horaire": "22h00",
+                "date": "04-07-2025",
+                "genre": "Pop",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/DuaLipa.jfif"
+              },
+              {
+                "artiste": "Tame Impala",
+                "horaire": "10h00",
+                "date": "05-07-2025",
+                "genre": "Psych Rock",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/TameImpala.jfif"
+              },
+              {
+                "artiste": "Kygo",
+                "horaire": "12h00",
+                "date": "05-07-2025",
+                "genre": "Électro, Tropical House",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/Kygo.jpg"
+              },
+              {
+                "artiste": "Aurora",
+                "horaire": "14h00",
+                "date": "05-07-2025",
+                "genre": "Indie Pop, Électro",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/Aurora.jpg"
+              },
+              {
+                "artiste": "Armin van Buuren",
+                "horaire": "16h00",
+                "date": "05-07-2025",
+                "genre": "Trance, Électro",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/ArminVonBuuren.jfif"
+              },
+              {
+                "artiste": "Zaz",
+                "horaire": "18h00",
+                "date": "05-07-2025",
+                "genre": "Chanson Française",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/Zaz.jfif"
+              },
+              {
+                "artiste": "Stromae",
+                "horaire": "20h00",
+                "date": "05-07-2025",
+                "genre": "Électro, Hip-Hop",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/Stromae.jfif"
+              },
+              {
+                "artiste": "David Guetta",
+                "horaire": "22h00",
+                "date": "05-07-2025",
+                "genre": "DJ, Électro",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/DavidGuetta.jfif"
+              },
+              {
+                "artiste": "Paul Kalkbrenner",
+                "horaire": "11h00",
+                "date": "06-07-2025",
+                "genre": "Techno",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/PaulKalkbrenner.jfif"
+              },
+              {
+                "artiste": "Måneskin",
+                "horaire": "13h00",
+                "date": "06-07-2025",
+                "genre": "Rock",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/Måneskin.jfif"
+              },
+              {
+                "artiste": "Christine and the Queens",
+                "horaire": "15h00",
+                "date": "06-07-2025",
+                "genre": "Pop Électro",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/ChristineandtheQueens.jfif"
+              },
+              {
+                "artiste": "Rag'n'Bone Man",
+                "horaire": "17h00",
+                "date": "06-07-2025",
+                "genre": "Soul, Blues",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/RagnBoneMan.jfif"
+              },
+              {
+                "artiste": "Calvin Harris",
+                "horaire": "20h00",
+                "date": "06-07-2025",
+                "genre": "DJ, Électro",
+                "lieu": "Europe",
+                "photo": "images/photoArtistes/Europe/CalvinHarris.jfif"
+              }
+        ]
+      },
+      {
+        "nom": "Scène Asie",
+        "concerts": [
+          {
+            "artiste": "Joji",
+            "horaire": "20h00",
+            "date": "04-07-2025",
+            "genre": "R&B, Hip-Hop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/Joji.jfif"
+          },
+          {
+            "artiste": "Jay Chou",
+            "horaire": "22h00",
+            "date": "04-07-2025",
+            "genre": "Mandopop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/JayChou.jfif"
+          },
+          {
+            "artiste": "Hikaru Utada",
+            "horaire": "10h00",
+            "date": "05-07-2025",
+            "genre": "J-pop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/HikaruUtada.jfif"
+          },
+          {
+            "artiste": "Gackt",
+            "horaire": "12h00",
+            "date": "05-07-2025",
+            "genre": "Rock",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/Gackt.jpg"
+          },
+          {
+            "artiste": "EXO",
+            "horaire": "14h00",
+            "date": "05-07-2025",
+            "genre": "K-pop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/EXO.jpg"
+          },
+          {
+            "artiste": "Zhou Shen",
+            "horaire": "16h00",
+            "date": "05-07-2025",
+            "genre": "Pop, Ballades",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/ZhouShen.jfif"
+          },
+          {
+            "artiste": "IU",
+            "horaire": "18h00",
+            "date": "05-07-2025",
+            "genre": "K-pop, Ballades",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/IU.jfif"
+          },
+          {
+            "artiste": "BTS",
+            "horaire": "20h00",
+            "date": "05-07-2025",
+            "genre": "K-pop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/BTS.jpg"
+          },
+          {
+            "artiste": "F4",
+            "horaire": "22h00",
+            "date": "05-07-2025",
+            "genre": "Mandopop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/F4.jfif"
+          },
+          {
+            "artiste": "Yo-Yo Ma",
+            "horaire": "11h00",
+            "date": "06-07-2025",
+            "genre": "Musique Classique",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/Yo-YoMa.jfif"
+          },
+          {
+            "artiste": "Super Junior",
+            "horaire": "13h00",
+            "date": "06-07-2025",
+            "genre": "K-pop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/SuperJunior.jfif"
+          },
+          {
+            "artiste": "Toru Kitajima (TK)",
+            "horaire": "15h00",
+            "date": "06-07-2025",
+            "genre": "Rock",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/ToruKitajima.jfif"
+          },
+          {
+            "artiste": "Dimash Kudaibergen",
+            "horaire": "17h00",
+            "date": "06-07-2025",
+            "genre": "Pop, Opéra",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/DimashKudaibergen.jfif"
+          },
+          {
+            "artiste": "BLACKPINK",
+            "horaire": "20h00",
+            "date": "06-07-2025",
+            "genre": "K-pop",
+            "lieu": "Asie",
+            "photo": "images/photoArtistes/Asie/BLACKPINK.jpg"
+          }
+        ]
+      },
+      {
+        "nom": "Scène Afrique",
+        "concerts": [
+          {
+            "artiste": "Burna Boy",
+            "horaire": "20h00",
+            "date": "04-07-2025",
+            "genre": "Afro-fusion",
+            "lieu": "Lagos, Nigéria",
+            "photo": "images/photoArtistes/Afrique/BurnaBoy.jfif"
+          },
+          {
+            "artiste": "Angélique Kidjo",
+            "horaire": "22h00",
+            "date": "04-07-2025",
+            "genre": "Afrobeat, World Music",
+            "lieu": "Cotonou, Bénin",
+            "photo": "images/photoArtistes/Afrique/AngeliqueKidjo.jpg"
+          },
+          {
+            "artiste": "Wizkid",
+            "horaire": "10h00",
+            "date": "05-07-2025",
+            "genre": "Afrobeat",
+            "lieu": "Lagos, Nigéria",
+            "photo": "images/photoArtistes/Afrique/Wizkid.jfif"
+          },
+          {
+            "artiste": "Yemi Alade",
+            "horaire": "12h00",
+            "date": "05-07-2025",
+            "genre": "Afro-pop",
+            "lieu": "Lagos, Nigéria",
+            "photo": "images/photoArtistes/Afrique/YemiAlade.jfif"
+          },
+          {
+            "artiste": "Fally Ipupa",
+            "horaire": "14h00",
+            "date": "05-07-2025",
+            "genre": "Soukous, Rumba Congolaise",
+            "lieu": "Kinshasa, RDC",
+            "photo": "images/photoArtistes/Afrique/FallyIpupa.jfif"
+          },
+          {
+            "artiste": "Tiwa Savage",
+            "horaire": "16h00",
+            "date": "05-07-2025",
+            "genre": "Afrobeat, R&B",
+            "lieu": "Lagos, Nigéria",
+            "photo": "images/photoArtistes/Afrique/TiwaSavage.jpeg"
+          },
+          {
+            "artiste": "Salif Keita",
+            "horaire": "18h00",
+            "date": "05-07-2025",
+            "genre": "World Music, Afro-pop",
+            "lieu": "Bamako, Mali",
+            "photo": "images/photoArtistes/Afrique/SalifKeita.jpg"
+          },
+          {
+            "artiste": "Amadou & Mariam",
+            "horaire": "20h00",
+            "date": "05-07-2025",
+            "genre": "Afro-blues",
+            "lieu": "Bamako, Mali",
+            "photo": "images/photoArtistes/Afrique/Amadou&Mariam.jpg"
+          },
+          {
+            "artiste": "Oumou Sangaré",
+            "horaire": "22h00",
+            "date": "05-07-2025",
+            "genre": "Wassoulou Music",
+            "lieu": "Bamako, Mali",
+            "photo": "images/photoArtistes/Afrique/OumouSangaré.jpg"
+          },
+          {
+            "artiste": "Sauti Sol",
+            "horaire": "11h00",
+            "date": "06-07-2025",
+            "genre": "Afro-pop, World Music",
+            "lieu": "Nairobi, Kenya",
+            "photo": "images/photoArtistes/Afrique/SautiSol.jfif"
+          },
+          {
+            "artiste": "DJ Maphorisa",
+            "horaire": "13h00",
+            "date": "06-07-2025",
+            "genre": "Amapiano, House",
+            "lieu": "Johannesburg, Afrique du Sud",
+            "photo": "images/photoArtistes/Afrique/DJMaphorisa.jpg"
+          },
+          {
+            "artiste": "Black Coffee",
+            "horaire": "15h00",
+            "date": "06-07-2025",
+            "genre": "House, Electro",
+            "lieu": "Durban, Afrique du Sud",
+            "photo": "images/photoArtistes/Afrique/BlackCoffee.jpg"
+          },
+          {
+            "artiste": "MHD",
+            "horaire": "17h00",
+            "date": "06-07-2025",
+            "genre": "Afro-trap",
+            "lieu": "Paris, France / Conakry, Guinée",
+            "photo": "images/photoArtistes/Afrique/MHD.jfif"
+          },
+          {
+            "artiste": "Aya Nakamura",
+            "horaire": "20h00",
+            "date": "06-07-2025",
+            "genre": "Afrobeat, Pop",
+            "lieu": "Bamako, Mali",
+            "photo": "images/photoArtistes/Afrique/AyaNakamura.jpg"
+          }  
+        ]
+      }
+    ]
+  }
+  
