@@ -350,7 +350,240 @@
             "photo": "images/photoArtistes/Afrique/AyaNakamura.jpg"
           }  
         ]
+      },
+      {
+        "nom": "Scène Amérique du Nord",
+        "concerts": [
+          {
+            "artiste": "Beyoncé",
+            "horaire": "20h00",
+            "date": "04-07-2025",
+            "genre": "Pop, R&B",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/Beyoncé.jfif"
+          },
+          {
+            "artiste": "Drake",
+            "horaire": "22h00",
+            "date": "04-07-2025",
+            "genre": "Hip-Hop, R&B",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/Drake.jfif"
+          },
+          {
+            "artiste": "Lil Nas X",
+            "horaire": "10h00",
+            "date": "05-07-2025",
+            "genre": "Hip-Hop, Pop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/LilNasX.jfif"
+          },
+          {
+            "artiste": "Kendrick Lamar",
+            "horaire": "12h00",
+            "date": "05-07-2025",
+            "genre": "Hip-Hop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/KendrickLamar.jfif"
+          },
+          {
+            "artiste": "Cardi B",
+            "horaire": "14h00",
+            "date": "05-07-2025",
+            "genre": "Hip-Hop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/CardiB.jpg"
+          },
+          {
+            "artiste": "J. Cole",
+            "horaire": "16h00",
+            "date": "05-07-2025",
+            "genre": "Hip-Hop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/JCole.jfif"
+          },
+          {
+            "artiste": "Billie Eilish",
+            "horaire": "18h00",
+            "date": "05-07-2025",
+            "genre": "Pop, Electro-pop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/BillieEilish.jfif"
+          },
+          {
+            "artiste": "The Weeknd",
+            "horaire": "20h00",
+            "date": "05-07-2025",
+            "genre": "R&B, Pop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/TheWeeknd.jfif"
+          },
+          {
+            "artiste": "Taylor Swift",
+            "horaire": "22h00",
+            "date": "05-07-2025",
+            "genre": "Pop, Country",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/TaylorSwift.jfif"
+          },
+          {
+            "artiste": "Post Malone",
+            "horaire": "11h00",
+            "date": "06-07-2025",
+            "genre": "Hip-Hop, Pop",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/PostMalone.jpg"
+          },
+          {
+            "artiste": "Ariana Grande",
+            "horaire": "13h00",
+            "date": "06-07-2025",
+            "genre": "Pop, R&B",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/ArianaGrande.jfif"
+          },
+          {
+            "artiste": "Bruno Mars",
+            "horaire": "15h00",
+            "date": "06-07-2025",
+            "genre": "Pop, R&B",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/BrunoMars.jpg"
+          },
+          {
+            "artiste": "Justin Bieber",
+            "horaire": "17h00",
+            "date": "06-07-2025",
+            "genre": "Pop, R&B",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/JustinBieber.jpg"
+          },
+          {
+            "artiste": "Lady Gaga",
+            "horaire": "20h00",
+            "date": "06-07-2025",
+            "genre": "Pop, Dance, Electro",
+            "lieu": "Amérique du Nord",
+            "photo": "images/photoArtistes/AmeriqueN/LadyGaga.jfif"
+          }
+        ]
+      },
+      {
+        "nom": "Scène Amérique du Sud",
+        "concerts": [
+          {
+            "artiste": "Anitta",
+            "horaire": "20h00",
+            "date": "04-07-2025",
+            "genre": "Funk, Pop, Reggaeton",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/Anitta.jfif"
+          },
+          {
+            "artiste": "Shakira",
+            "horaire": "22h00",
+            "date": "04-07-2025",
+            "genre": "Pop, Latin Pop",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/Shakira.jpg"
+          },
+          {
+            "artiste": "J Balvin",
+            "horaire": "10h00",
+            "date": "05-07-2025",
+            "genre": "Reggaeton, Latin Trap",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/JBalvin.jpg"
+          },
+          {
+            "artiste": "Maluma",
+            "horaire": "12h00",
+            "date": "05-07-2025",
+            "genre": "Reggaeton, Pop",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/Maluma.jpg"
+          },
+          {
+            "artiste": "Caetano Veloso",
+            "horaire": "14h00",
+            "date": "05-07-2025",
+            "genre": "MPB, Tropicalia",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/CaetanoVeloso.jpg"
+          },
+          {
+            "artiste": "Soda Stereo",
+            "horaire": "16h00",
+            "date": "05-07-2025",
+            "genre": "Rock en Español",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/SodaStereo.jfif"
+          },
+          {
+            "artiste": "Gustavo Cerati",
+            "horaire": "18h00",
+            "date": "05-07-2025",
+            "genre": "Rock, Pop Rock",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/GustavoCerati.jpg"
+          },
+          {
+            "artiste": "Los Fabulosos Cadillacs",
+            "horaire": "20h00",
+            "date": "05-07-2025",
+            "genre": "Ska, Rock en Español",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/LosFabulososCadillacs.jfif"
+          },
+          {
+            "artiste": "Karol G",
+            "horaire": "22h00",
+            "date": "05-07-2025",
+            "genre": "Reggaeton, Latin Trap",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/KarolG.jfif"
+          },
+          {
+            "artiste": "Gilberto Gil",
+            "horaire": "11h00",
+            "date": "06-07-2025",
+            "genre": "MPB, Tropicalia",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/GilbertoGil.jfif"
+          },
+          {
+            "artiste": "Lali Espósito",
+            "horaire": "13h00",
+            "date": "06-07-2025",
+            "genre": "Pop, Latin Pop",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/LaliEspósito.jpg"
+          },
+          {
+            "artiste": "TINI",
+            "horaire": "15h00",
+            "date": "06-07-2025",
+            "genre": "Latin Pop, Reggaeton",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/TINI.jfif"
+          },
+          {
+            "artiste": "Jorge Drexler",
+            "horaire": "17h00",
+            "date": "06-07-2025",
+            "genre": "Folk, Latin Pop",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/JorgeDrexler.jpg"
+          },
+          {
+            "artiste": "Mercedes Sosa",
+            "horaire": "20h00",
+            "date": "06-07-2025",
+            "genre": "Folk, Nueva Canción",
+            "lieu": "Amérique du Sud",
+            "photo": "images/photoArtistes/AmeriqueS/MercedesSosa.jfif"
+          }
+        ]
       }
     ]
   }
-  

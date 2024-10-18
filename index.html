@@ -9,12 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Lien vers le fichier CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Lien vers leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!--Pour la carte en plein écran-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.fullscreen/Control.FullScreen.css" />
 </head>
 
 <body class="background-global">
 
     <!-- Menu de navigation Bootstrap -->
-    <nav class="navbar navbar-expand-lg py-0">
+    <nav class="navbar navbar-expand-lg py-0 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand fs-1" href="index.html">
                 <img src="images/logo.jpg" alt="Logo Festival" width="80" height="80"
@@ -31,20 +35,20 @@
                         <a class="nav-link" href="#programmation">Programmation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#billets">Billets</a>
+                        <a class="nav-link" href="#concerts">Concerts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#infos">Infos Pratiques</a>
+                        <a class="nav-link" href="#infos">Infos Pratiques & FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#galerie">Galerie</a>
+                        <a class="nav-link" href="#carte">Carte du site</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Réseaux sociaux</a>
                     </li>
                 </ul>
                 <!-- Bouton Acheter mes billets -->
-                <a href="#billets" class="btn btn-lg ms-lg-3">Acheter mes billets</a>
+                <a href="#billets" class="btn btn-lg ms-lg-3">Acheter billets</a>
             </div>
         </div>
     </nav>
@@ -76,7 +80,7 @@
         <!-- Appel à l'action -->
         <div class="container text-center my-5">
             <h2>Réservez vos billets maintenant</h2>
-            <a href="#billets" class="btn btn-lg mt-3">Acheter</a>
+            <a href="#billets" class="btn btn-lg mt-3">Acheter billets</a>
         </div>
     </section>
 
@@ -139,9 +143,12 @@
         </div>
     </section>
 
+    <!-- Marge supplémentaire -->
+    <section id="programmation" class="margeSup">margeSup</section>
+
     <!-- Section Programmation -->
     <!-- Section pour les filtres -->
-    <section id="programmation" class="container mt-4">
+    <section class="container">
         <h2 class="fs-1">Programmation</h2>
         <div class="row">
             <div class="col-md-12 mb-3">
@@ -165,29 +172,83 @@
     </section>
 
     <!-- Section pour les scènes (dynamique) -->
-    <section class="p-3">
+    <section class="container p-3">
         <div id="concerts-container" class="row">
-            <!-- Les concerts sont chargés ici par JavaScript-->s
+            <!-- Les concerts sont chargés ici par JavaScript-->
         </div>
     </section>
 
-    <section id="billets" style="height: 500px">
-        <h2>Billets</h2>
+    <!-- Marge supplémentaire -->
+    <section id="concerts" class="margeSup">margeSup</section>
+
+    <!-- Section pour le planning des concerts -->
+    <section id="concerts" style="height: 500px">
+        <div class="container">
+            <h2>Planning concerts</h2>
+        </div>
     </section>
+
+    <!-- Marge supplémentaire -->
+    <section id="infos" class="margeSup">margeSup</section>
+
+    <!-- Section pour les infos pratiques et FAQ -->
     <section id="infos" style="height: 500px">
-        <h2>Infos Pratiques</h2>
+        <div class="container">
+            <h2>Infos pratiques & FAQ</h2>
+        </div>
     </section>
-    <section id="galerie" style="height: 500px">
-        <h2>Galerie</h2>
+
+    <!-- Marge supplémentaire -->
+    <section id="carte" class="margeSup">margeSup</section>
+
+    <!-- Section pour le plan du site -->
+    <section id="carte">
+        <div class="container mb-4">
+            <h2>Plan du site</h2>
+            <div id="map"></div>
+        </div>
     </section>
+
+    <!-- Marge supplémentaire -->
+    <section id="billets" class="margeSup">margeSup</section>
+
+    <!--Section Separateur -->
+    <section class="separatorUp"></section>
+
+    <!--Section pour la billetterie (dynamique) -->
+    <section id="billets">
+        <div class="container">
+            <h2 class="fs-1">Billetterie</h2>
+            <div class="container">
+                <div id="billetterie" class="row">
+                    <!-- Les billets seront chargés ici -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Separateur -->
+    <section class="separatorDown"></section>
+
+    <!-- Marge supplémentaire -->
+    <section id="contact" class="margeSup">margeSup</section>
+
+    <!-- Section réseaux sociaux -->
     <section id="contact" style="height: 500px">
-        <h2>Contact</h2>
+        <h2>Nous suivre</h2>
     </section>
 
     <!-- Bootstrap JS -->
-    <!-- Lien vers le script JavaScript -->
+    <!-- Popper JS -->
+    <!-- Leafletp JS -->
+    <!-- script personnalisé JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.fullscreen/Control.FullScreen.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

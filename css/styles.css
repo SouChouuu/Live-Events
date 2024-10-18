@@ -6,7 +6,7 @@
 --couleur-blanc: ##eed8b0;   /* Blanc cassé 
 --couleur-noir: black; /* noir */
 
-/* Typographie pour un festival autour du monde */
+/* Typographie pour festival autour du monde */
 
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;   /* Titres */
@@ -21,6 +21,7 @@ body, html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .background-global {
@@ -30,6 +31,30 @@ body, html {
 
 .navbar {
     background-color:#eed8b0;
+}
+
+.navbar-brand {
+    color: #0e0844;
+}
+
+/* Séparateur entre programation et billeterie*/
+
+.separatorUp {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 13.9vw solid #0e0844;
+    border-top: -13.9vw;
+}
+
+/* Séparateur entre billeterie et infos paratiques*/
+
+.separatorDown {
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-top: 13.9vw solid #0e0844;
+    border-bottom: -13.9vw;
 }
 
 /* Conteneur de la vidéo plein écran */
@@ -63,6 +88,7 @@ body, html {
     animation: fadeInUp 2s ease-in-out forwards;
 }
 
+/*style bouton*/
 .btn-lg {
     padding: 10px 20px;
     animation: fadeInUp 2.5s ease-in-out forwards;
@@ -102,8 +128,8 @@ h2 {
 }
 
 /* Style lises des avantages*/
- /* Custom styles for icons and hover effect */
- .icon-box {
+/* styles pour icons et effet */
+.icon-box {
     transition: transform 0.3s ease;
     text-align: center;
     padding: 20px;
@@ -132,10 +158,9 @@ h2 {
 /*Programmation*/
 /* Carte */
 .card {
-    /*background-color: #eed8b0;*/
-    border-color: #0e0844;
+    border-radius: 15px;
+    border: 10px;
     max-width: 540px;
-
 }
 
     /* image carte*/
@@ -143,6 +168,7 @@ h2 {
     object-fit: cover;
     height: 250px;
     opacity: 100%;
+    border-radius: 10px;
 }
 
 .card-title {
@@ -157,7 +183,6 @@ h2 {
      1px  1px 0 black; /* Crée un contour noir autour du texte */
 }
 
-
 .card-text {
     font-size: 1rem;
     font-weight: bolder;
@@ -170,3 +195,64 @@ h2 {
      1px  1px 0 black;                                                                              
 }
 
+/*Billets*/
+/* Background section billeterie*/
+
+#billets {
+    background-color: #0e0844;
+}
+
+/* Carte */
+
+
+.ticket {
+    border-radius: 15px;
+    border: 10px;
+    max-width: 540px;
+}
+
+.ticket-body {
+    background-color: #0e0844;
+    border:1px solid #eed8b0;
+    border-radius: 15px;
+}
+
+.ticket-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF4500; /* Couleur du texte */
+    text-shadow: 
+    -1px -1px 0 black, 
+     1px -1px 0 black, 
+    -1px  1px 0 black, 
+     1px  1px 0 black; /* Crée un contour noir autour du texte */
+}
+
+.ticket-text {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: white; 
+    text-shadow: 
+    -1px -1px 0 black, 
+     1px -1px 0 black, 
+    -1px  1px 0 black, 
+     1px  1px 0 black;                                                                              
+}
+
+.form-select {
+    border: 10px solid #0e0844;
+
+}
+
+.margeSup {
+    margin: 80px;
+    color: transparent;
+    background-color: transparent !important;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}

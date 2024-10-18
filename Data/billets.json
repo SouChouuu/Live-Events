@@ -1,0 +1,33 @@
+{
+    "billets": [
+      {
+        "id": 1,
+        "titre": "Pass 1 JOUR",
+        "prix": 50,
+        "description": "Accès à tous les concerts pendant 1 journée.",
+        "quantite": 10
+      },
+      {
+        "id": 2,
+        "titre": "Pass 2 JOURS ",
+        "prix": 90,
+        "description": "Accès à tous les concerts pendant 2 jours.",
+        "quantite": 10
+      },
+      {
+        "id": 3,
+        "titre": "Pass 3 JOURS",
+        "prix": 130,
+        "description": "Accès à tous les concerts pendant 3 jours.",
+        "quantite": 10
+      },
+      {
+        "id": 4,
+        "titre": "Pass VIP",
+        "prix": 250,
+        "description": "Accès à tous les concerts avec zone VIP et repas inclus.",
+        "quantite": 10
+      }
+    ]
+  }
+  

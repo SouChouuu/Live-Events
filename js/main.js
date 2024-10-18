@@ -24,6 +24,7 @@ const countdown = setInterval(() => {
   }
 }, 1000);
 
+// PROGRAMMATION
 // Charger le contenu du fichier JSON
 document.addEventListener("DOMContentLoaded", function () {
   let concertsData = []; // Stocker les données pour pouvoir les filtrer
@@ -170,3 +171,111 @@ document.addEventListener("DOMContentLoaded", function () {
       displayConcerts(concertsData); // Afficher les concerts au démarrage
     });
 });
+
+// BILLETS
+// Fonction pour charger les données JSON depuis le fichier billets.json
+function chargerBillets() {
+  fetch("Data/billets.json")
+    .then((response) => response.json()) // Récupérer et convertir en JSON
+    .then((data) => afficherBillets(data.billets)) // Passer les données au render
+    .catch((error) =>
+      console.error("Erreur lors du chargement des billets:", error)
+    );
+}
+
+// Fonction pour afficher les billets dans la section billetterie
+function afficherBillets(billets) {
+  let sectionBilletterie = document.getElementById("billetterie");
+
+  billets.forEach((billet) => {
+    let billetHTML = `
+          <div class="col-md-6 col-lg-3 mb-4">
+              <div class="ticket  h-200">
+                  <div class="ticket-body">
+                      <h5 class="ticket-title text-center m-2">${
+                        billet.titre
+                      }</h5>
+                      <p class="ticket-text m-2">${billet.description}</p>
+                      <p class="ticket-text m-2"><strong>Prix :</strong> ${
+                        billet.prix
+                      } €</p>
+                      <!-- Ajout de la sélection de quantité -->
+                                <label class="ticket-text m-2" for="quantite-${
+                                  billet.id
+                                }"><strong>Quantité :</strong></label>
+                                <select id="quantite-${
+                                  billet.id
+                                }" class="form-select">
+                                    ${genererOptionsQuantite(billet.quantite)}
+                                </select>
+                      <button class="btn btn-lg ms-lg-3 m-3">Acheter</button>
+                  </div>
+              </div>
+          </div>
+      `;
+    sectionBilletterie.innerHTML += billetHTML;
+  });
+}
+
+// Fonction pour générer les options de sélection de quantité
+function genererOptionsQuantite(maxQuantite) {
+  let optionsHTML = "";
+  for (let i = 1; i <= maxQuantite; i++) {
+    optionsHTML += `<option value="${i}">${i}</option>`;
+  }
+  return optionsHTML;
+}
+
+// Charger les billets lors du chargement de la page
+window.onload = chargerBillets;
+
+// Initialiser la carte, centrée sur le Parc Monceau
+var map = L.map("map", {
+  fullscreenControl: true, // Ajout du contrôle plein écran
+}).setView([48.879, 2.3087], 16); // Coordonnées du Parc Monceau
+
+// Charger les tuiles de la carte OpenStreetMap
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "&copy; OpenStreetMap contributors",
+}).addTo(map);
+
+// Ajout d'un événement de clic sur la carte
+map.on("click", function () {
+  map.toggleFullscreen(); // Basculer le plein écran
+});
+
+// Gestion des événements d'entrée et de sortie du mode plein écran (facultatif)
+map.on("enterFullscreen", function () {
+  console.log("Vous êtes en mode plein écran");
+});
+
+map.on("exitFullscreen", function () {
+  console.log("Vous avez quitté le mode plein écran");
+});
+
+// Ajouter des marqueurs aux points d'intérêt du site
+var awesomeIcon = L.divIcon({
+  html: '<i class="fas fa-microphone-alt" style="color: #FF4500; font-size: 30px;"></i>',
+  iconSize: [30, 30],
+  className: "", // Désactive la classe par défaut pour que l'icône ne soit pas affectée
+});
+
+L.marker([48.879308, 2.306204], { icon: awesomeIcon })
+  .addTo(map)
+  .bindPopup("Scène Asie");
+
+L.marker([48.878472, 2.308026], { icon: awesomeIcon })
+  .addTo(map)
+  .bindPopup("Scène Afrique");
+
+L.marker([48.878877, 2.310479], { icon: awesomeIcon })
+  .addTo(map)
+  .bindPopup("Scène Amérique du Nord");
+
+L.marker([48.88034, 2.311015], { icon: awesomeIcon })
+  .addTo(map)
+  .bindPopup("Scène Amérique du Sud");
+
+L.marker([48.879381, 2.309012], { icon: awesomeIcon })
+  .addTo(map)
+  .bindPopup("Scène Europe");
